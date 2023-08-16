@@ -26,18 +26,18 @@ const styles = StyleSheet.create({
     },
     title: {
         fontWeight: 500,
-        fontSize: "32px",
+        fontSize: 32,
         color: "#fff",
-        paddingVertical: "50px",
-        letterSpacing: "10px",
+        paddingVertical: 50,
+        letterSpacing: 10,
         fontFamily: "verdana"
     },
     labels: {
         color: "#fff",
-        fontWeight: "550",
-        fontSize: "18px",
-        letterSpacing: "4px",
-        paddingBottom: "4px"
+        fontWeight: 550,
+        fontSize: 18,
+        letterSpacing: 4,
+        paddingBottom: 4,
 
     }
     ,
@@ -46,15 +46,15 @@ const styles = StyleSheet.create({
         borderBottomWidth: 2,
         borderColor: "#fff",
         color: "#fff",
-        fontWeight: "500",
-        fontSize: "18px"
+        fontWeight: 500,
+        fontSize: 18
 
     },
     inputGroup: {
-        paddingVertical: "20px"
+        paddingVertical: 20
     },
     button: {
-        paddingVertical: "16px",
+        paddingVertical: 16,
         color: "#fff",
         backgroundColor: "000"
     }

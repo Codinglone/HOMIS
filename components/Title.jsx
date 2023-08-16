@@ -10,11 +10,11 @@ export default function Title(){
 
 const styles = StyleSheet.create({
     title: {
-        fontSize: "48px",
+        fontSize: 48,
         color: "#fff",
-        fontWeight: "900",
-        marginTop: "160px",
-        letterSpacing: "14px",
+        fontWeight: 900,
+        marginTop: 160,
+        letterSpacing: 14,
         fontFamily: "verdana"
       },
 
