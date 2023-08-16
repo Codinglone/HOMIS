@@ -2,7 +2,7 @@ import { Text, StyleSheet, View } from "react-native";
 
 export default function Title() {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>HO-MIS</Text>
     </View>
   );
