@@ -1,22 +1,23 @@
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View } from "react-native";
 
-export default function Title(){
-    return (
-        <Text
-        style={styles.title}
-      >HO-MIS</Text>
-    )
+export default function Title() {
+  return (
+    <View>
+      <Text style={styles.title}>HO-MIS</Text>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-    title: {
-        fontSize: 48,
-        color: "#fff",
-        fontWeight: 900,
-        marginTop: 160,
-        letterSpacing: 14,
-        fontFamily: "verdana"
-      },
-
-   
-})
+  container: {
+    display: "flex"
+  },
+  title: {
+    fontSize: 48,
+    color: "#fff",
+    fontWeight: 900,
+    marginTop: 160,
+    letterSpacing: 14,
+    fontFamily: "verdana",
+  },
+});
